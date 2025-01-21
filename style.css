@@ -1,5 +1,104 @@
 /*
 Theme Name: damson Child
-Version: 1.0.0
+Version: 1.0.2
 Template: ap_damson
 */
+.wp-block-cover.back-img.top-concept,.box-common{
+    position: relative;
+    padding-bottom:100px;
+}
+.wp-block-cover.back-img.top-concept::before,.box-common::before{
+    background-image: url(./img/common/leaves.png);
+    position: absolute;
+    background-size: contain;
+    width: 380px;
+    height: 380px;
+    left: 0;
+    content: "";
+    z-index: 1;
+    background-repeat: no-repeat;
+    top:-50px;
+}
+.box-common::before{
+    width: 250px;
+    height: 250px;
+}
+.wp-block-cover.back-img.top-concept::after,.box-common::after{
+    background-image: url(./img/common/flower.png);
+    position: absolute;
+    background-size: contain;
+    width: 150px;
+    height: 150px;
+    content: "";
+    z-index: 0;
+    background-repeat: no-repeat;
+    bottom:5px;
+    right: -20px;
+}
+.wp-block-cover.back-img.top-move{
+    color: #fff!important;
+}
+.en{
+    font-family: var(--font-family);
+}
+.font-l{
+    font-size: 40px;
+}
+.top-move iframe{
+    max-width: 900px;
+    margin:0 auto;
+    display: table;
+    width: 100%;
+    border-radius: 10px;
+}
+.top-concept h3{
+    margin-top:0px!important;
+}
+.drawer-content .logo-icon a {
+    font-size: 35px!important;
+}
+.logo-icon a, .footer-logo a{
+    font-size: 45px!important;
+}
+.main-menu h1 {
+text-shadow: 2px 3px 3px rgba(0, 0, 0, 0.4)!important;
+border-bottom: 2px solid var(--common-border-color)!important;;
+}
+.about .wp-block-cover.back-img  >.wp-block-cover__inner-container {
+    background-color: #efefed8a!important;
+}
+.faq .wp-block-group h3 {
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+}
+
+@media screen and (min-width: 769px) {
+    .wp-block-cover.back-img.top-concept::after,.box-common::after{
+        width: 200px;
+        height: 200px;
+    }
+    .wp-block-cover.back-img.top-concept::before,.box-common::before{
+        width: 420px;
+        height: 420px;
+    }
+
+
+    .wp-block-cover.back-img.top-concept{
+        position: relative;
+        padding-bottom:80px;
+    }
+    .font-l{
+        font-size: 55px;
+    }
+    .front-page h3 {
+        font-size: 22px!important;
+    }
+    .about .wp-block-cover.back-img >.wp-block-cover__inner-container{
+    background-color: #efefed8a!important;
+
+    }
+
+
+
+}

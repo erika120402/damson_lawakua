@@ -80,7 +80,7 @@ max-width: 80px;
 padding:30px 20px!important;
 }
 .about .wp-block-cover.back-img  >.wp-block-cover__inner-container  {
-    padding: 0px!important;;
+    padding: 0px!important;
     background-color: #00000000!important;;
 }
 
@@ -119,10 +119,13 @@ padding:30px 20px!important;
     .txt-box{
     padding:50px 70px!important;
     }
-
-
-
-
-
-
+    .news-list-box {
+    padding: 0px 0 50px!important;; 
+    }
 }
+
+
+
+
+
+

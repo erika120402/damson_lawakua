@@ -54,12 +54,6 @@ border-radius: 10px;
 .top-concept h3{
 margin-top:0px!important;
 }
-.drawer-content .logo-icon a {
-font-size: 35px!important;
-}
-.logo-icon a, .footer-logo a{
-font-size: 45px!important;
-}
 .main-menu h1 {
 text-shadow: 2px 3px 3px rgba(0, 0, 0, 0.4)!important;
 border-bottom: 2px solid var(--common-border-color)!important;;
@@ -80,9 +74,10 @@ max-width: 80px;
 padding:30px 20px!important;
 }
 .about .wp-block-cover.back-img  >.wp-block-cover__inner-container  {
-    padding: 0px!important;
-    background-color: #00000000!important;;
+padding: 0px!important;
+background-color: #00000000!important;;
 }
+
 
 @media screen and (min-width: 769px) {
     .wp-block-cover.back-img.top-concept::after,.box-common::after{
@@ -121,6 +116,12 @@ padding:30px 20px!important;
     }
     .news-list-box {
     padding: 0px 0 50px!important;; 
+    }
+    .lesson iframe{
+        max-width: 900px;
+        margin:0 auto;
+        display: table;
+
     }
 }
 
